@@ -1,0 +1,27 @@
+[
+    {
+        "nombre": "Haynes",
+        "edad": 32,
+        "puesto": "sit"
+    },
+    {
+        "nombre": "Mollie",
+        "edad": 34,
+        "puesto": "elit"
+    },
+    {
+        "nombre": "Sally",
+        "edad": 40,
+        "puesto": "minim"
+    },
+    {
+        "nombre": "Barker",
+        "edad": 42,
+        "puesto": "cupidatat"
+    },
+    {
+        "nombre": "Merrill",
+        "edad": 30,
+        "puesto": "et"
+    }
+]

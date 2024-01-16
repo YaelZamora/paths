@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E3841922B44DFFE0097863F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3841912B44DFFE0097863F /* Extensions.swift */; };
+		7E3841942B44E2500097863F /* AnotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3841932B44E2500097863F /* AnotherView.swift */; };
 		7E884B662B44D5A500EDBEFD /* pathsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E884B652B44D5A500EDBEFD /* pathsApp.swift */; };
 		7E884B682B44D5A500EDBEFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E884B672B44D5A500EDBEFD /* ContentView.swift */; };
 		7E884B6A2B44D5A700EDBEFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E884B692B44D5A700EDBEFD /* Assets.xcassets */; };
 		7E884B6D2B44D5A700EDBEFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E884B6C2B44D5A700EDBEFD /* Preview Assets.xcassets */; };
+		7E884B742B44DBA400EDBEFD /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E884B732B44DBA400EDBEFD /* Show.swift */; };
+		7EDB1BD62B5483B600BA9382 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDB1BD52B5483B600BA9382 /* Test.swift */; };
+		7EDB1BD82B54848B00BA9382 /* DatosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDB1BD72B54848B00BA9382 /* DatosView.swift */; };
+		7EDB1BDA2B548A6300BA9382 /* ShowData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDB1BD92B548A6300BA9382 /* ShowData.swift */; };
+		7EDB1BDC2B548EB300BA9382 /* datos.json in Resources */ = {isa = PBXBuildFile; fileRef = 7EDB1BDB2B548EB300BA9382 /* datos.json */; };
+		7EDB1BDE2B548EDE00BA9382 /* ShowDataFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDB1BDD2B548EDE00BA9382 /* ShowDataFrom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E3841912B44DFFE0097863F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7E3841932B44E2500097863F /* AnotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherView.swift; sourceTree = "<group>"; };
 		7E884B622B44D5A500EDBEFD /* paths.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = paths.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E884B652B44D5A500EDBEFD /* pathsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pathsApp.swift; sourceTree = "<group>"; };
 		7E884B672B44D5A500EDBEFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7E884B692B44D5A700EDBEFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E884B6C2B44D5A700EDBEFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E884B732B44DBA400EDBEFD /* Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
+		7EDB1BD52B5483B600BA9382 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		7EDB1BD72B54848B00BA9382 /* DatosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosView.swift; sourceTree = "<group>"; };
+		7EDB1BD92B548A6300BA9382 /* ShowData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowData.swift; sourceTree = "<group>"; };
+		7EDB1BDB2B548EB300BA9382 /* datos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = datos.json; sourceTree = "<group>"; };
+		7EDB1BDD2B548EDE00BA9382 /* ShowDataFrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDataFrom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +69,14 @@
 			children = (
 				7E884B652B44D5A500EDBEFD /* pathsApp.swift */,
 				7E884B672B44D5A500EDBEFD /* ContentView.swift */,
+				7E884B732B44DBA400EDBEFD /* Show.swift */,
+				7E3841932B44E2500097863F /* AnotherView.swift */,
+				7E3841912B44DFFE0097863F /* Extensions.swift */,
+				7EDB1BD52B5483B600BA9382 /* Test.swift */,
+				7EDB1BD72B54848B00BA9382 /* DatosView.swift */,
+				7EDB1BD92B548A6300BA9382 /* ShowData.swift */,
+				7EDB1BDD2B548EDE00BA9382 /* ShowDataFrom.swift */,
+				7EDB1BDB2B548EB300BA9382 /* datos.json */,
 				7E884B692B44D5A700EDBEFD /* Assets.xcassets */,
 				7E884B6B2B44D5A700EDBEFD /* Preview Content */,
 			);
@@ -127,6 +151,7 @@
 			files = (
 				7E884B6D2B44D5A700EDBEFD /* Preview Assets.xcassets in Resources */,
 				7E884B6A2B44D5A700EDBEFD /* Assets.xcassets in Resources */,
+				7EDB1BDC2B548EB300BA9382 /* datos.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +162,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E884B742B44DBA400EDBEFD /* Show.swift in Sources */,
 				7E884B682B44D5A500EDBEFD /* ContentView.swift in Sources */,
+				7E3841942B44E2500097863F /* AnotherView.swift in Sources */,
 				7E884B662B44D5A500EDBEFD /* pathsApp.swift in Sources */,
+				7EDB1BDA2B548A6300BA9382 /* ShowData.swift in Sources */,
+				7EDB1BDE2B548EDE00BA9382 /* ShowDataFrom.swift in Sources */,
+				7E3841922B44DFFE0097863F /* Extensions.swift in Sources */,
+				7EDB1BD62B5483B600BA9382 /* Test.swift in Sources */,
+				7EDB1BD82B54848B00BA9382 /* DatosView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +307,7 @@
 				DEVELOPMENT_TEAM = VP5MJD3LR4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Necesitamos el FaceID";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +337,7 @@
 				DEVELOPMENT_TEAM = VP5MJD3LR4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Necesitamos el FaceID";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
